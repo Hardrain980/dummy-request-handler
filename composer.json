@@ -1,0 +1,16 @@
+{
+    "name": "ringa/dummy-request-handler",
+    "description": "A dummy PSR-15 request handler for performing unit-tests.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/psr7": "^1.7",
+        "psr/http-message": "^1.0",
+        "psr/http-server-handler": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leo\\Fixtures\\": "src/"
+        }
+    }
+}
