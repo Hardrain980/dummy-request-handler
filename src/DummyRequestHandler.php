@@ -5,7 +5,7 @@ namespace Leo\Fixtures;
 use \Psr\Http\Server\RequestHandlerInterface;
 use \Psr\Http\Message\ServerRequestInterface;
 use \Psr\Http\Message\ResponseInterface;
-use \GuzzleHttp\Psr7;
+use \Nyholm\Psr7;
 
 class DummyRequestHandler implements RequestHandlerInterface
 {
